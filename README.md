@@ -2,7 +2,7 @@
 
 PW (Pluginable WeChat) is based on https://github.com/geeeeeeeeek/electronic-wechat/archive/V2.0.tar.gz
 
-Below the original README:
+Below is the original README:
 
 ---
 
