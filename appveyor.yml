@@ -19,5 +19,4 @@ test_script:
   #- npm test
   
 after_build:
-  - build_win32_x86.bat
-  # - npm run build:win64
+  - npm run build:win32
