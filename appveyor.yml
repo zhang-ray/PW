@@ -14,7 +14,7 @@ test_script:
   - node --version
   - npm --version
   # run tests
-  - npm test
+  #- npm test
   
-after_build:
-  - npm run build:win32
+#after_build:
+#  - npm run build:win32
