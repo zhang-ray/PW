@@ -17,6 +17,9 @@ test_script:
   - npm --version
   # run tests
   #- npm test
-  
+
 after_build:
   - npm run build:win32
+  - 7z a PW-win32-ia32.zip PW-win32-ia32
+artifacts:
+  - path: .\PW-win32-ia32.zip
