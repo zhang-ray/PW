@@ -1,3 +1,11 @@
+# PW
+
+PW (Pluginable WeChat) is based on https://github.com/geeeeeeeeek/electronic-wechat/archive/V2.0.tar.gz
+
+Below the original README:
+
+---
+
 <img src="assets/icon.png" alt="logo" height="120" align="right" />
 # Electronic WeChat
 *A better WeChat on macOS and Linux. Built with [Electron](https://github.com/atom/electron).*
