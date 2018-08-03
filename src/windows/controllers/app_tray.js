@@ -51,7 +51,7 @@ class AppTray {
     this.tray = new Tray(image);
     this.tray.setToolTip(Common.ELECTRONIC_WECHAT);
 
-    if (process.platform === 'linux') {
+    {
       const contextMenu = Menu.buildFromTemplate([
         { label: 'ChangeIconColor', click: () => this.changeIconColor() },
         { label: 'Show', click: () => this.hideSplashAndShowWeChat() },
