@@ -157,9 +157,10 @@ class WeChatWindow {
   }
 
   registerLocalShortcut() {
-    electronLocalShortcut.register(this.wechatWindow, 'Esc', () => {
-      this.wechatWindow.close();
-    });
+    // avoid bug #2
+    //electronLocalShortcut.register(this.wechatWindow, 'Esc', () => {
+    //  this.wechatWindow.close();
+    //});
   }
 
   unregisterLocalShortCut() {
